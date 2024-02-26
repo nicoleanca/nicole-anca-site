@@ -1,6 +1,3 @@
-.background {
-  background-image: url("../images/alex-perez-pEgsWN0kwbQ-unsplash.jpg");
-}
 
 .container {
   margin: auto;
@@ -10,7 +7,7 @@
 }
 
 .heading {
-  color: rebeccapurple;
+  color: #005067;
 }
 .nav-links {
   display: flex;

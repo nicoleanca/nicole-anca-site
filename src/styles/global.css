@@ -1,0 +1,15 @@
+html {
+  background-image: url("../images/jazmin-quaynor-8ioenvmof-I-unsplash.jpg");
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+}
+
+head {
+  background-color: blueviolet;
+}
+
+a {
+  color: rebeccapurple;
+}
+
