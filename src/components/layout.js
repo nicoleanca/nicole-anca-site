@@ -4,11 +4,9 @@ import {
   background,
   container,
   heading,
-  navLinks,
-  navLinkItem,
-  navLinkText,
   siteTitle,
 } from './layout.module.css'
+import NavBar from './navbar'
 
 const Layout = ({ pageTitle, children }) => {
 
@@ -26,30 +24,7 @@ const Layout = ({ pageTitle, children }) => {
     <div className={background}>
     <div className={container}>
        <header className={siteTitle}>Nicole Anca</header>
-      <nav>
-        <ul className={navLinks}>
-          <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>
-              Home
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
-              About
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/portofolio" className={navLinkText}>
-              Portofolio
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/mycv" className={navLinkText}>
-              CV
-            </Link>
-          </li>
-        </ul>
-      </nav>
+       <NavBar/>
       <main>
        {pageTitle && <h1 className={heading}>{pageTitle}</h1>}
         {children}

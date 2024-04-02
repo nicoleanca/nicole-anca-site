@@ -6,7 +6,7 @@ import "../styles/global.css"
 const IndexPage = () => {
   return (
     <Layout>
-      <p>Hi, <br/>I build beautiful, accessible and efficient websites.</p>
+      <p className='cursive-font'>Hi, <br/>I build beautiful, accessible and efficient websites. <br/> <span className='align-right'> -Nicole</span></p>
      
     </Layout>
   )
